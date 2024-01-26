@@ -87,10 +87,10 @@ int main() {
         // outputs the  top ten maximum primes
         outputFile << "Top Ten Maximum Primes:\n";
         std::sort(primes.rbegin(), primes.rend());
-        for (int i = 0; i < std::min(10, static_cast<int>(primes.size())); ++i) {
+        for (int i = 9; i >= 0; --i) {
             outputFile << "Prime " << i + 1 << ": " << primes[i] << "\n";
         }
-
+        //std::min(10, static_cast<int>(primes.size()));
         outputFile.close();
         std::cout << "Results written to primes.txt\n";
     } else {
