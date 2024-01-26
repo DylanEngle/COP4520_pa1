@@ -1,0 +1,15 @@
+Duration (seconds): 6.21126
+Total Primes: 5761455
+Sum of Primes: 279209790387276
+
+Top Ten Maximum Primes:
+Prime 1: 99999989
+Prime 2: 99999971
+Prime 3: 99999959
+Prime 4: 99999941
+Prime 5: 99999931
+Prime 6: 99999847
+Prime 7: 99999839
+Prime 8: 99999827
+Prime 9: 99999821
+Prime 10: 99999787
